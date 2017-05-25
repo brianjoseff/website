@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta charset="utf-8">
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/monad.css">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+</head>
+<body lang="en">
+
+{{ partial "header.html" . }}
+
+<section id="main">
+  <div>
+    {{- range first 10 .Data.Pages }}
+      <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    {{- end }}
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

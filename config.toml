@@ -1,0 +1,4 @@
+theme = "monad"
+baseURL = "http://brianjoseff.com/"
+languageCode = "en-us"
+title = "Brian Joseff"
