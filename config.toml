@@ -1,4 +1,6 @@
 theme = "monad"
-baseURL = "http://brianjoseff.com/"
+contentDir = "content"
+layoutDir = "themes/monad/layouts"
+baseURL = "https://brianjoseff.com"
 languageCode = "en-us"
 title = "Brian Joseff"
