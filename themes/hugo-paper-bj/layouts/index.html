@@ -1,59 +1,57 @@
 
 {{ partial "header.html" . }}
-<div style="background: #fff;">
-  <section class="hero-letter">
-    <img src="/img/bj.png" id="headshot"></img>
-    <!-- <a class="small" href="#">I can’t read your damned handwriting. Show me text!</a> -->
-    <img src="/img/letter2.svg" id="letter"></img>
-    <img src="/img/bjsignature.png" id="signature"></img>
+<section class="hero-letter">
+  <img src="/img/bj.png" id="headshot"></img>
+  <!-- <a class="small" href="#">I can’t read your damned handwriting. Show me text!</a> -->
+  <img src="/img/letter2.svg" id="letter"></img>
+  <img src="/img/bjsignature.png" id="signature"></img>
+</section>
+<section class="about">
+  <section>
+    <div class="link-index">
+      <h6>Table of Contents</h6>
+      <a href="#work" class="link">Currently working on</a><br/><br/>
+      <a href="#interests" class="link">Interests</a><br/><br/>
+      <a href="#books-etc" class="link">Notable Books, Essays, Articles, Art, etc.</a><br/><br/>
+      <a href="#other-interests" class="link">Other Interests</a><br/><br/>
+    </div>
   </section>
-  <section class="about">
-    <section>
-      <div class="link-index">
-        <h6>Table of Contents</h6>
-        <a href="#work" class="link">Currently working on</a><br/><br/>
-        <a href="#interests" class="link">Interests</a><br/><br/>
-        <a href="#books-etc" class="link">Notable Books, Essays, Articles, Art, etc.</a><br/><br/>
-        <a href="#other-interests" class="link">Other Interests</a><br/><br/>
+  <a name="work"></a>
+  <h2>I am currently working on...</h2>
+  <div class="container projects-container">
+    <div class="row projects">
+      <div class="four columns">
+        <a class="project small" href="/bedrock">
+          <div class="project-logo">
+            <img src="/img/work/Bedrock.png" id="bedrock"></img>
+          </div>
+          Private supercomputers that organize everything for you.
+          <p class="small text">Learn more...</p>
+        </a>
       </div>
-    </section>
-    <a name="work"></a>
-    <h2>I am currently working on...</h2>
-    <div class="container projects-container">
-      <div class="row projects">
-        <div class="four columns">
-          <a class="project small" href="/bedrock">
-            <div class="project-logo">
-              <img src="/img/work/Bedrock.png" id="bedrock"></img>
-            </div>
-            Private supercomputers that organize everything for you.
-            <p class="small text">Learn more...</p>
-          </a>
-        </div>
-        <div class="four columns">
-          <a class="project small" href="#">
-            <div class="project-logo">
-              <img src="/img/work/bangbang-large.png" id="bangbang"></img>
-            </div>
-            Take action on issues you care about.
-            <p class="small text">Learn more...</p>
-          </a>
-        </div>
-        <div class="four columns">
-          <a class="project small" href="#">
-            <div class="project-logo">
-              <img src="/img/work/StrengthInDiversity.png" id="strengthindiversity"></img>
-            </div>
-            Mixed-race, mixed-income community in East Palo Alto, CA
-            <p class="small text">Learn more...</p>
-          </a>
-        </div>
+      <div class="four columns">
+        <a class="project small" href="#">
+          <div class="project-logo">
+            <img src="/img/work/bangbang-large.png" id="bangbang"></img>
+          </div>
+          Take action on issues you care about.
+          <p class="small text">Learn more...</p>
+        </a>
+      </div>
+      <div class="four columns">
+        <a class="project small" href="#">
+          <div class="project-logo">
+            <img src="/img/work/StrengthInDiversity.png" id="strengthindiversity"></img>
+          </div>
+          Mixed-race, mixed-income community in East Palo Alto, CA
+          <p class="small text">Learn more...</p>
+        </a>
       </div>
     </div>
-    <!--  _Index.md content/posts  -->
-    {{ .Content}}
-    <!-- ------------------------- -->
-  </section>
+  </div>
+  <!--  _Index.md content/posts  -->
+  {{ .Content}}
+  <!-- ------------------------- -->
+</section>
 
-  {{ partial "footer.html" . }}
-</div>
+{{ partial "footer.html" . }}
