@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Title -->
+  <title>
+    {{- if not .IsHome }}
+    {{- if eq .Kind "page" }}{{ .Title }}
+    {{- else if eq .Data.Singular "tag" }}{{ .Data.Term }}
+    {{- else }}Posts
+    {{- end }} - {{ end }}
+    {{- .Site.Title -}}
+  </title>
+  <!-- Meta -->
+  {{- if eq .Kind "page" }}
+  <meta name="description" content="{{ .Summary }}">
+  <meta name="author" content="{{ .Params.author | default .Site.Params.author }}">
+  {{ else }}
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="author" content="{{ .Site.Params.author }}">
+  {{ end -}}
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{.Site.BaseURL}}css/font.css">
+  <link rel="stylesheet" href="{{.Site.BaseURL}}css/atom-one-dark.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:400" rel="stylesheet" />
+  <link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="{{.Site.BaseURL}}img/apple-touch-icon.png">
+  <link rel="icon" href="{{.Site.BaseURL}}img/favicon.ico">
+  <!-- Generator -->
+  {{ .Hugo.Generator }}
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" href="{{.Site.BaseURL}}index.xml" title="{{ .Site.Title }}">
+  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
+    {{ template "_internal/google_analytics_async.html" . }}
+  {{ end }}
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+</head>
+<body lang="en" style="background: #fff;">
+{{ partial "header.html" . }}
+<section class="hero-letter">
+  <img src="/img/bj.png" id="headshot"></img>
+  <!-- <a class="small" href="#">I can’t read your damned handwriting. Show me text!</a> -->
+  <img src="/img/letter2.svg" id="letter"></img>
+  <img src="/img/bjsignature.png" id="signature"></img>
+</section>
+<section class="about">
+  <section>
+    <div class="link-index">
+      <h6>Table of Contents</h6>
+      <a href="#work" class="link">Currently working on</a><br/><br/>
+      <a href="#interests" class="link">Interests</a><br/><br/>
+      <a href="#books-etc" class="link">Notable Books, Essays, Articles, Art, etc.</a><br/><br/>
+      <a href="#other-interests" class="link">Other Interests</a><br/><br/>
+    </div>
+  </section>
+  <a name="work"></a>
+  <h2>I am currently working on...</h2>
+  <div class="container projects-container">
+    <div class="row projects">
+      <div class="four columns">
+        <a class="project small" href="/bedrock">
+          <div class="project-logo">
+            <img src="/img/work/Bedrock.png" id="bedrock"></img>
+          </div>
+          Private supercomputers that organize everything for you.
+          <p class="small text">Learn more...</p>
+        </a>
+      </div>
+      <div class="four columns">
+        <a class="project small" href="#">
+          <div class="project-logo">
+            <img src="/img/work/bangbang-large.png" id="bangbang"></img>
+          </div>
+          Take action on issues you care about.
+          <p class="small text">Learn more...</p>
+        </a>
+      </div>
+      <div class="four columns">
+        <a class="project small" href="#">
+          <div class="project-logo">
+            <img src="/img/work/StrengthInDiversity.png" id="strengthindiversity"></img>
+          </div>
+          Mixed-race, mixed-income community in East Palo Alto, CA
+          <p class="small text">Learn more...</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--  _Index.md content/posts  -->
+  {{ .Content}}
+  <!-- ------------------------- -->
+</section>
+
+{{ partial "footer.html" . }}
