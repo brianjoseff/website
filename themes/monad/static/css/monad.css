@@ -1,6 +1,6 @@
 body {
   font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica', sans-serif;
-  margin: 24px;
+  margin: 0px;
 }
 
 h1{
@@ -32,12 +32,37 @@ h4 {
   letter-spacing: 1px;
 }
 
+#column-left {
+  /*background-color: #000000;*/
+  float: left;
+  height: 50vh;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  width: 40%;
+}
+#column-right {
+  height: 100%;
+  padding-bottom: 10rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 10rem;
+  position: relative;
+  width: 60%;
+}
+
 #sidebar {
   width: 217px;
 }
 
 #headshot {
-  width: 150px;
+  background-image: url(/img/bj.png);
+  background-position: center center;
+  background-size: cover;
+  display: block;
+  float: left;
+  overflow: hidden;
+  height: 100%;
 }
 
 section.sidebar {
