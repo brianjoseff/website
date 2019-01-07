@@ -245,7 +245,7 @@ ul li {
   p, a {
   margin-bottom: 2.8rem;
   line-height: 2.8rem;
-  font-size: 1.4em;
+  font-size: 1.6em;
   }
   ul,ol,dl {
     font-size: 1.6rem;
@@ -350,7 +350,7 @@ ul li {
 /* Body
 ============================================================= */
 .list {
-  background: #f9f9f9;
+  /*background: #f9f9f9;*/
 }
 /* Header
 ============================================================= */
@@ -358,8 +358,8 @@ ul li {
   display: flex;
   justify-content: space-between;
   height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
+/*  padding-left: 30px;
+  padding-right: 30px;*/
   line-height: 65px;
 }
 .home .header {
@@ -372,9 +372,31 @@ ul li {
   font-weight: 700;
   line-height: 35px;
 }
+
+.header-links a{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.header-links a:hover{
+  text-decoration: underline;
+}
 .noscroll {
   overflow: hidden;
 }
+
+/*hide menu on desktop*/
+.menu-toggle {
+  display: none;
+}
+.menu {
+  display: none;
+}
+
+@media (max-width: 400px) {
+.header-links {
+  display: none;
+}
+
 .menu-toggle {
   display: block;
   position: absolute;
@@ -433,8 +455,16 @@ ul li {
 .menu a {
   font-size: 20px;
 }
+
+}
 /* Main
 ======================================================================= */
+.god-container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
 .main {
   min-height: calc(100vh - 130px);
   overflow: hidden;
@@ -445,6 +475,35 @@ section {
 }
 
 /* Index.html */
+#headshot{
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.8rem;
+}
+
+#letter{
+  width: calc(100vw - 40px);
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-bio{
+
+}
+
+#signature{
+  width: 10%;
+  min-width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about{
   max-width: 700px;
   margin-left: auto;
@@ -464,28 +523,6 @@ section {
   margin-right: auto;
 }
 
-#headshot{
-  width: 50%;
-  display: block;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2.8rem;
-}
-
-#signature{
-  width: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#letter{
-  width: calc(100vw - 40px);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 /*----- Section: "I am  working on" -------------*/
 .projects-container {
@@ -506,7 +543,6 @@ section {
 a.project {
   display: block;
   width: 100%;
-  height: 100%;
   border-radius: 4px;
   border: solid 1px #e9e9e9;
   padding: 12px;

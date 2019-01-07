@@ -3,7 +3,7 @@ date = "2018-12-29T23:34:37-07:00"
 +++
 
 
-<a name="interests"></a>
+<a name="interests" id="#interests"></a>
 <h2>Interests</h2>
 
 - **Information Theory and Knowledge Organization**

@@ -22,8 +22,8 @@
   <meta name="author" content="{{ .Site.Params.author }}">
   {{ end -}}
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/font.css">
-  <link rel="stylesheet" href="/css/atom-one-dark.min.css">
+<!--   <link rel="stylesheet" href="/css/font.css">
+  <link rel="stylesheet" href="/css/atom-one-dark.min.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:400" rel="stylesheet" />
   <link rel="stylesheet" href="/css/style.css">
@@ -54,6 +54,10 @@
     {{ else }}
     <h1 class="title"><a href="/">{{ .Site.Title }}</a></h1>
     {{ end }}
+    <div class="header-links">
+      <a href="/#work">Work</a>
+      <a href="/#contact">Contact</a>
+    </div>
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>
