@@ -5,14 +5,15 @@ date = "2018-12-29T23:34:37-07:00"
 
 <a name="interests" id="#interests"></a>
 <h2>Interests</h2>
+<p>Issue: Communicating true interest level via some sort of multi-parameter index. e.g., Time spent, works produced, information consumed, etc.</p>
 
-- **Information Theory and Knowledge Organization**
+- **Information Theory & Knowledge Organization**
     - …
 - **Discovery, Philosophy of Science, & Adventure**
     - …
 - **Neuroscience, Consciousness, Philosophy of Mind**
     - …
-- **Natural World and Ecosystems**
+- **Natural World & Ecosystems**
     - Animal behavior. I believe someday we'll figure out how to commnicate directly with other organisms. It is perhaps my greatest wish to be able to converse with dolphins.
     - Conservation
     - Ecosystem modeling
@@ -30,6 +31,7 @@ date = "2018-12-29T23:34:37-07:00"
 - **Unity, Cooperation, Harmony**
     - Game Theory
     - Tension between idealism and pragmatism
+    - Hidden Order behind the ineffable beauty of harmonious things
 - **Evolution**
     - Group-level selection
     - Altruism
@@ -48,19 +50,19 @@ date = "2018-12-29T23:34:37-07:00"
 Here's a smattering of things I've interacted with that struck me in some way.
 
 ### Books
-- Social Conquest of the Earth
+- Social Conquest of the Earth _by E. O. Wilson_
 - On China _by Henry Kissinger_
-- Thinking, Fast and Slow
+- Thinking, Fast and Slow _by Daniel Kahneman_
 - Manias, Panics, and Crashes: A History of Financial Crises _by Charles Kindelberger_
-- Siddhartha
+- Siddhartha _by Hermann Hesse_
 - The Dhammapada
-- All the King’s Men
-- Invisible Man
-- The Righteous Mind
+- All the King’s Men _by Robert Penn Warren_
+- Invisible Man _by Ralph Ellison_
+- The Righteous Mind _by Jonathan Haidt_
 - A History of Western Philosophy _by Bertrand Russell_
 - Swann’s Way _by Marcel Proust_
-- Sea-wolf
-- Information Doesn’t Want to Be Free
+- Sea-wolf _by Jack London_
+- Information Doesn’t Want to Be Free _by Cory Doctorow_
 
 ### Articles & Essays
 - Resistance, Rebellion, and Death: Essays _by Albert Camus_

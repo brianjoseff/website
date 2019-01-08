@@ -612,6 +612,29 @@ a.project:hover p.text {
 
 /*------------------*/
 
+/*----- Page: Work; -------------*/
+
+#work-bedrock{
+  width: 30%;
+  margin-right: 20px;
+}
+.work-logo{
+  width: 30%;
+  margin-right: auto; 
+}
+.work-strength-in-diversity{
+  display:block;
+  margin-left:auto;
+  border: solid 1px #e6e6e6;
+}
+.work-site{
+  display: inline-block;
+}
+
+/*------------------*/
+
+
+
 .list-header,
 .first-entry > *,
 .post-entry,
@@ -640,7 +663,7 @@ a.project:hover p.text {
   padding-bottom: 30px;
 }
 .post-view {
-  width: 700px;
+  /*width: 700px;*/
   margin-left: auto;
   margin-right: auto;
 }

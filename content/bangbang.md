@@ -4,8 +4,14 @@ menu  = "main"
 url = "bangbang/"
 +++
 
-Private supercomputers that organize everything for you.
-<img src="/img/work/bangbang-large.png" id="bangbang"></img>
 
+<img src="/img/work/bangbang-large.png" class="work-logo"></img>
 
+<h3>What is Bangbang?</h3>
+<p>Helping people take action on things they care about.</p>
+
+<p>Find ways to take action, share what you do without judgement, discuss what needs to be done, build community around your interests, mobilize other people to do things.</p>
 <a target="_blank" href="https://bangbang.do/" class="link">Go to site...</a>
+
+<h3>Why I built this</h3>
+<p>Everyone is asking us to take action. Who should we listen to? What should we do? How do I do it?  What things actually will have an impact? How do I keep track of what I’ve already done? How do I get other people to do things?</p>
