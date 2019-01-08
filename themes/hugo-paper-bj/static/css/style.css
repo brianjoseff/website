@@ -156,7 +156,12 @@ p, a {
   font-style: normal;
   letter-spacing: 0em;
 }
-
+a{
+  color: #367da2;
+}
+a:hover{
+  text-decoration: underline;
+}
 a.link{
   color: #367da2 !important;
   border-bottom: 1px solid transparent;
@@ -624,6 +629,23 @@ a.project:hover p.text {
 
 
 /*------------------*/
+.fleuron{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+  margin-top: 75px;
+  font-size: 150%;
+}
+
+#earth-sun{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
 
 /*----- Page: Work; -------------*/
 

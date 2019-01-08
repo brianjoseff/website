@@ -93,6 +93,7 @@ Here's a smattering of things I've interacted with that struck me in some way.
         - ...
 - ...
 
+<span class="fleuron">--------- ❖ ---------</span>
 
 ## Post-script: An exhortation to all free-thinking peoples
 
@@ -103,3 +104,5 @@ Hold it, coax it, breathe life into it regularly. Guard it from the deluge of mi
 We will rise from this soul-sucking muck, cast off these irons of banal evil and atavistic impulse and build a new world. A world where our inner lights can shine brightly. A world where we can open ourselves to the lights of others. A world where that primordial spark of kinship that as yet winks dimly behind all our eyes is allowed to burst forth and combine, fearlessly, with the sparks of our brothers and sisters around us to form a blazing fire of brotherhood whose warmth and light throws back the lurking shadowy evils of our past nature, and proudly radiates forth from Earth out into the unknown void, proclaiming our power, our love, and our hope.
 
 We shall illuminate the darkness together.
+
+<img src="/img/earth-sun.svg" id="earth-sun"></img>
