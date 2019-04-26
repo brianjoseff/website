@@ -251,7 +251,7 @@ ul li {
   p, a {
   margin-bottom: 2.8rem;
   line-height: 2.8rem;
-  font-size: 1.6em;
+  /*font-size: 1.6em;*/
   }
   ul,ol,dl {
     font-size: 1.6rem;

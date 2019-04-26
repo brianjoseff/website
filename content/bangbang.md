@@ -15,3 +15,4 @@ url = "bangbang/"
 
 <h3>Why I built this</h3>
 <p>Everyone is asking us to take action. Who should we listen to? What should we do? How do we do it?  What things actually will have an impact? How do we keep track of what we’ve already done? How do we get other people to do things?</p>
+<p>Our first customers are small non-profits and documentary filmmakers/producers.</p>

@@ -2,7 +2,7 @@
 date = "2018-12-29T23:34:37-07:00"
 +++
 
-
+<!-- 
 <a name="interests" id="#interests"></a>
 <h2>Interests</h2>
 <p>Issue: Communicating true interest level via some sort of multi-parameter index. e.g., Time spent, works produced, information consumed, etc.</p>
@@ -40,9 +40,9 @@ date = "2018-12-29T23:34:37-07:00"
     - We are glorified primates: 
     - Soccer
 - **Direct, Personal Compassion**
-    - People’s personal stories of struggle, triumph, mundanity, whatever
+    - People’s personal stories of struggle, triumph, mundanity, etc.
     - Lyft: One of the few ways we can reliably break out of our social bubbles these days. I've met an incredibly diverse array of people in Lyft. I've documented some stories here. 
-    - Diner counters: Another way to meet fascinating people, or non-fascinating people. I am an inrepressible harasser of counter-mates in dining establishments.
+    - Diner counters: Another way to meet fascinating people, or non-fascinating people. I am an irrepressible harasser of counter-mates in dining establishments.
 
 
 <a name="books-etc"></a>
@@ -92,16 +92,17 @@ Here's a smattering of things I've interacted with that struck me in some way.
     - _Enjoy this List of Lists of Lists_:
         - ...
 - ...
+-->
 
 <span class="fleuron">--------- ❖ ---------</span>
 
 ## Post-script: An exhortation to all free-thinking peoples
 
-Please, in the name of all that you hold most dear, cherish the glowing ember of individuality smoldering within your breast. 
+Please, in the name of all that you hold most dear, cherish the glowing ember of individuality smoldering within you. 
 
 Hold it, coax it, breathe life into it regularly. Guard it from the deluge of mind-numbing, hope-drowning indignities and iniquities that the modern world rains down upon us. These anxious, drifting times feel endless, but they too shall pass.
 
-We will rise from this soul-sucking muck, cast off these irons of banal evil and atavistic impulse and build a new world. A world where our inner lights can shine brightly. A world where we can open ourselves to the lights of others. A world where that primordial spark of kinship that as yet winks dimly behind all our eyes is allowed to burst forth and combine, fearlessly, with the sparks of our brothers and sisters around us to form a blazing fire of brotherhood whose warmth and light throws back the lurking shadowy evils of our past nature, and proudly radiates forth from Earth out into the unknown void, proclaiming our power, our love, and our hope.
+We will rise from this soul-sucking muck, cast off these irons of banal evil and atavistic impulse and build a new world. A world where our inner lights can shine brightly. A world where we can open ourselves to the lights of others. A world where that primordial spark of kinship that as yet winks dimly behind all our eyes is allowed to burst forth and combine, fearlessly, with the sparks of our brothers and sisters around us to form a blazing fire of kinship whose warmth and light throws back the lurking shadowy evils of our past nature, and proudly radiates forth from Earth out into the unknown void, proclaiming our power, our love, and our hope.
 
 We shall illuminate the darkness together.
 

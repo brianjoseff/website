@@ -62,9 +62,10 @@
     <button class="menu-toggle" type="button"></button>
     <nav class="menu">
       <ul>
+        <li><a href="/">Home</a></li>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-        <li><a href="/">Home</a></li>
+        <br/>
         <li class="{{ if $currentPage.IsMenuCurrent `main` . }}active{{ end }}">
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
