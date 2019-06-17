@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brian Joseff</title>
+    <link>www.brianjoseff.com/posts/</link>
+    <description>Recent content in Posts on Brian Joseff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2018 23:34:37 -0700</lastBuildDate>
+    
+	<atom:link href="www.brianjoseff.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>my first post</title>
+      <link>www.brianjoseff.com/posts/my-first-post/</link>
+      <pubDate>Sat, 29 Dec 2018 23:34:37 -0700</pubDate>
+      
+      <guid>www.brianjoseff.com/posts/my-first-post/</guid>
+      <description>The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest. The flood had made, the wind was nearly calm, and being bound down the river, the only thing for it was to come to and wait for the turn of the tide.
+The sea-reach of the Thames stretched before us like the beginning of an interminable waterway. In the offing the sea and the sky were welded together without a joint, and in the luminous space the tanned sails of the barges drifting up with the tide seemed to stand still in red clusters of canvas sharply peaked, with gleams of varnished sprits.</description>
+    </item>
+    
+    <item>
+      <title>test post</title>
+      <link>www.brianjoseff.com/posts/test-post/</link>
+      <pubDate>Fri, 28 Dec 2018 23:55:17 -0700</pubDate>
+      
+      <guid>www.brianjoseff.com/posts/test-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

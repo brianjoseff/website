@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brian Joseff</title>
+    <link>www.brianjoseff.com/</link>
+    <description>Recent content on Brian Joseff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Dec 2018 23:34:37 -0700</lastBuildDate>
+    
+	<atom:link href="www.brianjoseff.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>my first post</title>
+      <link>www.brianjoseff.com/posts/my-first-post/</link>
+      <pubDate>Sat, 29 Dec 2018 23:34:37 -0700</pubDate>
+      
+      <guid>www.brianjoseff.com/posts/my-first-post/</guid>
+      <description>The Nellie, a cruising yawl, swung to her anchor without a flutter of the sails, and was at rest. The flood had made, the wind was nearly calm, and being bound down the river, the only thing for it was to come to and wait for the turn of the tide.
+The sea-reach of the Thames stretched before us like the beginning of an interminable waterway. In the offing the sea and the sky were welded together without a joint, and in the luminous space the tanned sails of the barges drifting up with the tide seemed to stand still in red clusters of canvas sharply peaked, with gleams of varnished sprits.</description>
+    </item>
+    
+    <item>
+      <title>test post</title>
+      <link>www.brianjoseff.com/posts/test-post/</link>
+      <pubDate>Fri, 28 Dec 2018 23:55:17 -0700</pubDate>
+      
+      <guid>www.brianjoseff.com/posts/test-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bangbang</title>
+      <link>www.brianjoseff.com/bangbang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.brianjoseff.com/bangbang/</guid>
+      <description>What is Bangbang? Helping people take action on things they care about.
+Find ways to take action, share what you do without judgement, discuss what needs to be done, build community around your interests, mobilize other people to do things.
+Go to site... Why I built this Everyone is asking us to take action. Who should we listen to? What should we do? How do we do it? What things actually will have an impact?</description>
+    </item>
+    
+    <item>
+      <title>Bedrock</title>
+      <link>www.brianjoseff.com/bedrock/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.brianjoseff.com/bedrock/</guid>
+      <description>What is Bedrock? Private, personal supercomputers that organize everything for you while keeping your affairs totally hidden from everybody and everything.
+Go to site&amp;hellip;
+Why I built this Our lives are being conducted increasingly online. This digital renaissance has led to some amazing things. Just imagine going back to a world without Google Maps. But it has also resulted in some surprisingly bad things. Like, threatening-the-continued-existence-of-our-species bad.
+Our civic institutions, those hallowed, battle-tested pillars of society that we painstakingly built up from nothing and ferociously defended to the death time and again, are now suddenly being violently shook to their very foundations.</description>
+    </item>
+    
+    <item>
+      <title>Strength In Diversity</title>
+      <link>www.brianjoseff.com/strength_in_diversity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>www.brianjoseff.com/strength_in_diversity/</guid>
+      <description>What is Strength in Diversity? We bring together people from different worlds to connect, learn from each other, and elevate each other.
+Our core program is a mixed-income, mixed-race community of people living together in East Palo Alto, CA and helping each other make strides in creative careers.
+Go to site... Why I built this Society is unequal. This inequality leads to hatred, violence, and loss of productivity. Unequal opportunity is also morally wrong.</description>
+    </item>
+    
+  </channel>
+</rss>
