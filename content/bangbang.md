@@ -1,7 +1,7 @@
 +++
 title = "Bangbang"
 menu  = "main"
-url = "bangbang/"
+url = "/bangbang/"
 +++
 
 
