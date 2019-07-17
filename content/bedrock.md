@@ -1,7 +1,7 @@
 +++
 title = "Bedrock"
 menu  = "main"
-url = "bedrock"
+url = "brianjoseff.com/bedrock"
 +++
 
 
