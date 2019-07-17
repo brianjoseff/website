@@ -4,6 +4,7 @@ themesDir = "themes"
 theme = "hugo-paper-bj"
 staticDir = "themes/hugo-paper-bj/static/"
 baseURL = "www.brianjoseff.com/"
+relativeURLs=true
 languageCode = "en-us"
 title = "Brian Joseff"
 googleAnalytics = "UA-100593457-1"
