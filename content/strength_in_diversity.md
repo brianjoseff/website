@@ -13,7 +13,7 @@ url = "strength_in_diversity/"
 <p>Our core program is a mixed-income, mixed-race community of people living together in East Palo Alto, CA and helping each other make strides in creative careers.</p>
 <a target="_blank" href="https://strengthindiversity.com" class="link">Go to site...</a>
 
-<h3>Why I built this</h3>
+<h3>Why is this important?</h3>
 <p>Society is unequal. This inequality leads to hatred, violence, and loss of productivity. Unequal opportunity is also morally wrong. It is unfair.</p>
 
 <p>Underprivileged people suffer from an <i>Opportunity Gap.</i></p>
@@ -23,3 +23,5 @@ url = "strength_in_diversity/"
 <p>Privileged people suffer from an <i>Empathy Gap.</i></p>
 
 <p>They do not understand the hopes, needs, and fears of everyone else because they live in an isolated world of elites. This ignorance leads to violence, disunity, and short-sighted decision making. These ignorant people have control over all power in today’s world. This must change. To bring about peace, unity, and equality--they must first gain empathy.</p>
+
+<p>Strength in Diversity brings the privileged and underprivileged together so they can learn from each other and be better. It is a two way street. Not charity. Not poverty-tourism. It is the formation of solid, equal relationships of interdependence and shared growth.</p>
