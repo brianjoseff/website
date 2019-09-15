@@ -12,7 +12,7 @@ url = "/bedrock"
 <p>We are building a new type of digital machine.
 Something powerful, private, and radically yours.
 Designed from the ground up to protect, empower, and respect you.</p>
-<a target="_blank" href="https://bedrock.ai/individual" class="link work-site">Go to site...</a>
+<a target="_blank" href="https://bedrock.ai" class="link work-site">Go to site...</a>
 
 <h3>Why we are building this</h3>
 <p>It's time for a Spaceship for the Mind.</p>
