@@ -492,6 +492,7 @@ section {
 /* Index.html */
 #headshot{
   width: 100%;
+  max-width: 250px;
   display: block;
   margin-top: 50px;
   margin-left: auto;
@@ -505,6 +506,7 @@ section {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2.8rem;
 }
 
 .hero-bio{
